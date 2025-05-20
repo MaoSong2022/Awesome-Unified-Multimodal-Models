@@ -256,6 +256,15 @@ If you have any suggestions (missing papers, new papers, or typos), please feel 
   [![Website](https://img.shields.io/badge/Website-9cf)](https://research.nvidia.com/labs/dir/cosmos-tokenizer/) -->
 
 
+## How to contribute
+
+1. Fork the repo.
+2. Add a new paper item. Usually the new paper item consists of three parts.
+>
+> 1. The first part is a markdown hyperlink, with format `[{paper_title}]({arxiv_link}) ({mon}, {year}, arxiv)`, the arxiv link is of format `https://arxiv.org/{abs, pdf}/abcd.efghi`
+> 2. The second part is the link, just use the format `[![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)]({arxiv_link})` is fine.
+> 3. [Optional] If the paper open sourced the code on github. You can use this part to link the corresponding github repo. the part is of the format `[![Star](https://img.shields.io/github/stars/{github_user_name}/{repo_name}.svg?style=social&label=Star)]({github_link})`, you need to replace `github_link`, `{github_user_name}` and `{repo_name}` to show stars correctly.
+
 ## Acknowledgements
 
 This template is provided by [Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) and [Awesome-MLLM-Hallucination](https://github.com/showlab/Awesome-MLLM-Hallucination).
